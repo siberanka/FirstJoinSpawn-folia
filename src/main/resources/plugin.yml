@@ -1,0 +1,16 @@
+name: FirstJoinSpawn
+version: ${project.version}
+main: com.siberanka.firstjoinspawn.FirstJoinSpawnPlugin
+api-version: "1.21"
+folia-supported: true
+
+commands:
+  fjs:
+    description: FirstJoinSpawn main command
+    usage: /fjs <setspawn|spawn|reload>
+    permission: fjs.admin
+
+permissions:
+  fjs.admin:
+    description: Access to FirstJoinSpawn commands
+    default: op

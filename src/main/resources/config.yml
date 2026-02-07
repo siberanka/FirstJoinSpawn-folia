@@ -1,0 +1,28 @@
+spawn:
+  set: false
+  world: world
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+
+first-join:
+  enabled: true
+  teleport-delay-seconds: 3
+
+respawn:
+  redirect-no-bed-to-spawn: true
+
+messages:
+  prefix: "&8[&bFJS&8] &r"
+  no-permission: "&cBu komutu kullanma yetkin yok."
+  usage: "&eKullanım: /fjs <setspawn|spawn|reload>"
+  player-only: "&cBu komut sadece oyuncular tarafından kullanılabilir."
+  reload-success: "&aConfig yeniden yüklendi."
+  spawn-set: "&aSpawn konumu başarıyla ayarlandı."
+  spawn-not-set: "&cSpawn henüz ayarlanmamış. /fjs setspawn kullan."
+  spawn-teleported: "&aSpawn konumuna ışınlandın."
+  first-join-waiting: "&eİlk giriş spawn ışınlaması {seconds} saniye sonra yapılacak."
+  first-join-teleported: "&aİlk giriş spawna ışınlandın."
+  teleport-failed: "&cIşınlama başarısız oldu."
